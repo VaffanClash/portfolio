@@ -4,3 +4,6 @@ This is my personal Portfolio, where you can find more information about me, lik
 ## Website link
 You can check out my Portfolio website here:
 https://luca-feller-portfolio.netlify.app
+
+## Warning!
+The website is still a work in progress.
