@@ -1,0 +1,252 @@
+body {
+    background-color: #1d1c1c;
+    color: white;
+    font-family: 'Calleo-Trial', sans-serif;
+
+    /* background-image: url(./background/svgBackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.hidden {
+    display: none;
+}
+
+/***--------------------------------------------
+ **               HEADER
+ **---------------------------------------------**/
+
+#header {
+    width: 80%
+}
+
+.htmlSyntax {
+    color: #4c4848;
+    font-family: 'Muttiara', sans-serif;
+}
+
+#opening {
+    position: relative;
+    left: 4%;
+    top: 2%;
+}
+
+#title {
+    position: relative;
+    left: 5%;
+    top: 8%;
+
+    height: 100%;
+    
+    font-size: 72px;
+    font-family: 'LT Museum', sans-serif;
+
+    margin: 0px;
+}
+
+#h1closing {
+    position: absolute;
+    left: 31%;
+    top: 23%;
+}
+
+#skills {
+    position: relative;
+    left: 10%;
+    top: 40%;
+}
+
+#skills > p {
+    margin: 0px;
+}
+
+#skillsParagraph {
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-family: 'LT Museum', sans-serif;
+}
+
+#closing {
+    position: relative;
+    left: 4%;
+    top: 55%;
+}
+
+/***--------------------------------------------
+ **               ABOUT ME
+ **---------------------------------------------**/
+
+#aboutMe {
+    position: absolute;
+    left: 55%;
+    top: 100px;
+
+    width: 35%;
+
+    text-align: center;
+}
+
+/**--------------------------------------------
+ **               MAIN CONTAINER
+ **---------------------------------------------**/
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/**--------------------------------------------
+ **               MY COLUMN
+ **---------------------------------------------**/
+
+#myColumn {
+    position: absolute;
+    width: 15%;
+    height: 495px;
+
+    left: 10%;
+    
+    background-color: #161616;
+
+    border-radius: 30px;
+
+    padding: 10px;
+    margin: 0px 0px 0px 25px;
+
+    display: inline-block;
+
+}
+
+#LFLogo {
+    width: 150px;
+    height: 150px;
+    margin: 23% 0% 0% 23%;
+}
+
+#name {
+    text-align: center;
+}
+
+.contact {
+    position: relative;
+    left: 15px;
+    height: 70px;
+
+    display: block;
+}
+
+.contactIcon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    margin-top: 5%;
+}
+
+.contactTitle {
+    font-size: 20px;
+
+    margin: 10px 0px 0px 0px;
+
+    vertical-align: top;
+    display: inline-block;
+}
+
+.contactValue {
+    position: relative;
+    width: fit-content;
+
+    left: 57px;
+    top: -30px;
+
+    font-size: 15px;
+
+    margin: 0px;
+
+    display: block;
+}
+
+#emailCopied {
+    position: relative;
+    left: 90%;
+    bottom: 300px;
+    z-index: 1; /* show in front of the "What I do" form since the last element in the html will be shown first by default*/
+}
+
+@keyframes emailCopiedAnimation {
+    0% {opacity: 0; bottom: 150px;}
+    25% {opacity: 1}
+    50% {bottom: 200px;}
+    75% {opacity: 1;}
+    100% {opacity: 0; bottom: 200px;}
+}
+
+.emailCopied {    
+    transform: rotate(-12deg);
+    animation-name: emailCopiedAnimation;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+/**--------------------------------------------
+ **               WHAT I DO
+ **---------------------------------------------**/
+
+#whatIDo {
+    position: relative;
+    width: 60%;
+    left: 10%;
+
+    background-color: #161616;
+
+    border-radius: 25px;
+
+    padding: 30px;
+    margin: auto;
+
+    text-align: center;
+}
+
+#whatIDo > h1 {
+    margin: 0px 0px 20px 0px;
+}
+
+.cell {
+    position: relative;
+    width: 40%;
+    height: 100px;
+    
+    background-color: rgb(20, 20, 20);
+    
+    font-size: 13px;
+
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: -1px -1px 3px -1px rgb(83, 83, 83);
+
+    text-align: left;
+}
+
+.cellIcon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5%;
+    margin: 5px;
+    display: inline;
+}
+
+.cellTitle {
+    font-size: 20px;
+    margin: 5px 0px 0px 40px;
+    display: inline-block;
+}
+
+.cellP {
+    margin: 5px;
+}

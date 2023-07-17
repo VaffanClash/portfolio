@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca F. Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="index.js"></script>
+
+    <!--* FONTS -->
+    <!-- Html Syntax -->
+    <link href="https://fonts.cdnfonts.com/css/muttiara" rel="stylesheet">
+
+    <!-- Title -->
+    <link href="https://fonts.cdnfonts.com/css/lt-museum" rel="stylesheet">
+
+    <!-- .body -->
+    <link href="https://fonts.cdnfonts.com/css/calleo-trial" rel="stylesheet">
+</head>
+<body>
+
+    <!--* TITLE -->
+    <div id="header">
+
+        <!-- HTML SYNTAX OPENING -->
+        <div class="htmlSyntax">
+            <p id="opening">
+                &ltbody&gt<br>
+                &nbsp&nbsp&nbsp&lth1&gt
+            </p>
+        </div>
+
+        <!-- ACTUAL TITLE -->
+        <h1 id="title">I'm <span style="color: rgb(128, 9, 197)">L</span>uca <span style="color: rgb(128, 9, 197)">F</span>eller,<br>
+            a Web Developer.
+        </h1>
+
+        <p id="h1closing" class="htmlSyntax">&nbsp&nbsp&nbsp&lt/h1&gt</p>
+
+        <div id="skills" class="htmlSyntax">
+            <p>&ltp&gt</p>
+            <p id="skillsParagraph">&nbsp&nbsp&nbsp<span style="color: rgb(255, 165, 0)">Html</span>, <span style="color: rgb(28, 106, 170)">CSS</span>, <span style="color: yellow">JavaScript</span></p>
+            <p>&lt/p&gt</p>
+        </div>
+
+        <div class="htmlSyntax">
+            <p id="closing">
+                &nbsp&nbsp&nbsp&lt/h1&gt<br>
+                &lt/body&gt
+            </p>
+        </div>
+
+    </div>
+
+    <!--* ABOUT ME -->
+    <div id="aboutMe">
+        <h1>About me</h1>
+        <p>I'm a dedicated and enthusiastic junior developer with a passion for web development.
+            Eager to learn and grow, I am committed to refining my skills and staying up-to-date with the latest technologies and best practices.
+            With a strong foundation in JavaScript and web technologies, I strive to tackle new challenges and contribute to innovative projects.
+            I am a quick learner, a problem-solver, and thrive in collaborative environments.
+            I'm excited to embark on this journey and contribute my skills to create impactful web solutions.
+        </p>
+    </div>
+
+    <!--* Column + What I do container -->
+    <div id="mainContainer">
+        
+        <!--* My column -->
+        <div id="myColumn">
+            <img id="LFLogo" src="./img/LFLogo.jpg">
+            <h1 id="name">Luca Feller</h1>
+            <hr>
+            <div id="email" class="contact">
+                <img class="contactIcon" src="./img/gmailIcon.png">
+                <p class="contactTitle">EMAIL</p>
+                <a id="emailElement" class="contactValue" href="#"
+                    onclick="copyEmail('lucacodingjs@gmail.com')">lucacodingjs@gmail.com</a>
+                <p id="emailCopied" class="hidden">Email copied!</p>
+            </div>
+    
+            <div id="github" class="contact">
+                <img class="contactIcon" src="./img/githubIcon.png">
+                <p class="contactTitle">GITHUB</p>
+                <a class="contactValue" href="https://github.com/VaffanClash">VaffanClash</a>
+            </div>
+        </div>
+    
+        <!--* What I do -->
+        <div id="whatIDo">
+    
+            <h1>What I do:</h1>
+    
+            <div id="webDevelopment" class="cell">
+                <img class="cellIcon" src="./img/web-development.png"></img>
+                <h3 class="cellTitle">Web Development</h3>
+                <p class="cellP">High performance and bug-free websites at professional level.</p>
+            </div>
+    
+            <div id="graphicDesign" class="cell">
+                <img class="cellIcon" src="./img/web-design.png"></img>
+                <h3 class="cellTitle">Web Design</h3>
+                <p class="cellP">Modern, high quality and visually appealing design.</p>
+            </div>
+    
+            <div id="desktopApp" class="cell">
+                <img class="cellIcon" src="./img/desktop-development.png"></img>
+                <h3 class="cellTitle">Desktop App Development</h3>
+                <p class="cellP">Simple and modern Desktop applications built with Electron or React Native.</p>
+            </div>
+    
+            <div id="androidApp" class="cell">
+                <img class="cellIcon" src="./img/android-development.png"></img>
+                <h3 class="cellTitle">Android App Development</h3>
+                <p class="cellP">User friendly Android applications built with React Native.</p>
+            </div>
+    
+            <div id="discordBots" class="cell">
+                <img class="cellIcon" src="./img/discord-development.png"></img>
+                <h3 class="cellTitle">Discord Bot Development</h3>
+                <p class="cellP">Easy to use Discord bots built with Node.js.</p>
+            </div>
+    
+            <div id="Chrome Extensions" class="cell">
+                <img class="cellIcon" src="./img/extension-development.png"></img>
+                <h3 class="cellTitle">Chrome Extensions Development</h3>
+                <p class="cellP">Chrome Extensions built with Node.js.</p>
+            </div>
+    
+        </div>
+    
+    </div>
+        
+</body>
+</html>
