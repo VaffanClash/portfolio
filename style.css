@@ -1,3 +1,8 @@
+:root {
+    --main-box-shadow: -1px -1px 3px rgb(99, 99, 98);
+    --noOffset-box-shadow: 0 0 25px rgb(51, 51, 50);
+}
+
 body {
     background-color: #1d1c1c;
     color: white;
@@ -110,12 +115,18 @@ body {
     background-color: #161616;
 
     border-radius: 30px;
+    box-shadow: var(--noOffset-box-shadow);
 
     padding: 10px;
     margin: 0px 0px 0px 25px;
 
     display: inline-block;
 
+    transition: all 0.3s ease;
+}
+
+#myColumn:hover {
+    box-shadow: none;
 }
 
 #LFLogo {
@@ -201,11 +212,18 @@ body {
     background-color: #161616;
 
     border-radius: 25px;
+    box-shadow: var(--noOffset-box-shadow);
 
     padding: 30px;
     margin: auto;
 
     text-align: center;
+
+    transition: all 0.3s ease;
+}
+
+#whatIDo:hover {
+    box-shadow: none;
 }
 
 #whatIDo > h1 {
