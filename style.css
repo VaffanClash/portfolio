@@ -358,3 +358,15 @@ a:hover {
     text-decoration: none;
 }
 /**  */
+
+/* either use media or clamp to make it work on android */
+/* clamp version would be width: clamp(200px, 50%, 600px) | (minimum 200px, preferred 50%, max 600px)*/
+@media (max-width: 600px) {
+    /* basically add here the styles that will change up to 600px */
+    /* example: */
+
+    /* #LFLogo {
+        width: 90px; // instead of 150
+        height: 90px;
+    } */
+}
